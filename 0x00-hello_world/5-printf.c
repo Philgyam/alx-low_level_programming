@@ -1,4 +1,4 @@
-#include<stdio>
+#include<stdio.h>
 /**
  * main - A program that prints out
  * Return: 0 (sucess);
