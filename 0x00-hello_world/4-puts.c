@@ -1,10 +1,10 @@
 #include<stdio.h>
-
-/* A proram that prints a string output*/
-
+/**
+ * main - This program prints wiht put function
+ 
+ */         
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puszzle");
-
-        return 0;
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
