@@ -5,7 +5,8 @@
  * main - Entry point
  * Return: Always 1 (Success)
  */
-int main()
+int main(void)
 {
-	fput("and that place of are is useful\" , Dora Korpar, 2015-10-19\n",stdout);
+	fput("and that place of are is useful\" , Dora Korpar, 2015-10-19\n", stdout);
+	return (1);
 }
