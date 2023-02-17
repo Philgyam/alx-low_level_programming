@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlb.h>
 
 /**
  * main - main function is described here
