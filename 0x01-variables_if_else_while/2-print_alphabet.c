@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <conio.h>
+#include <stdlb.h>
 
 /**
  * main - main function is described here
