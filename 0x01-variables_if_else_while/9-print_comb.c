@@ -14,7 +14,7 @@ int main(void)
 		if (a < '0')
 		{
 			putchar(',');
-			putchar(' ');
+
 		}
 	}
 	putchar('\n');
