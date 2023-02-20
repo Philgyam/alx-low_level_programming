@@ -13,10 +13,10 @@ int main(void)
 	 b = 'a';
 
 	while (a <= 'Z')
-	{putchar(toupper(a));
+	{putchar(tolower(a));
 		a++;}
 	while (b <= 'z')
-	{putchar(tolower(b));
+	{putchar(toupper(b));
 		b++;}
 	putchar('\n');
 	return (0);
