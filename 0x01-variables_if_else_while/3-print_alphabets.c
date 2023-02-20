@@ -1,6 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
-
+#include <ctype.h>
 /**
  * main - The main fuction comes here also
  * Return: 0 (success)
