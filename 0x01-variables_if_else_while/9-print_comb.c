@@ -12,9 +12,8 @@ int main(void)
 	{
 		putchar(a + '0');
 		if (a < '0')
-		{
+		{put char(9);
 			putchar(',');
-			putchar(9);
 
 		}
 	}
