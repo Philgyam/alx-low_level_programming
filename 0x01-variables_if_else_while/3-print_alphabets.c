@@ -2,7 +2,7 @@
 #include <stdlb.h>
 
 /**
- * main - The main fuction comes here
+ * main - The main fuction comes here also
  * Return: 0 (success)
  */
 int main(void)
