@@ -1,6 +1,22 @@
-#include <std.lib.h>
 #include <stdio.h>
+#include <stdlib.h>
+/**
+ * main -The main function comes here
+ *Return: 0 (success)
+ */
+int main(void)
+{
+	char c;
+	int d;
+	c='a';
 
-/*
- * Main - This is the main 
- *
+	while 
+		(d < 10){
+			putchar(d+ '0');
+			d++
+		}
+	while
+		(c <='f')
+			putchar(c);
+	return (0);
+}
