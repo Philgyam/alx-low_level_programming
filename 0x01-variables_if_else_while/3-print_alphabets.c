@@ -6,10 +6,13 @@
  */
 int main(void)
 {
-	char a = 'a';
-	char b = 'A';
+	char a;
+	char b;
 
-	while (a <= 'a')
+	 a = 'a';
+	 b = 'A';
+
+	while (a <= 'z')
 	{putchar(toupper(a));
 		a++;}
 	while (b <= 'Z')
