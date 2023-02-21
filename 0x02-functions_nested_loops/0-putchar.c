@@ -7,15 +7,13 @@
 
 int main(void)
 {
-	char a[] ={'_','p','u','t','c','h','a','r'};
-	putchar(a[0]);
-	putchar(a[1]);
-	putchar(a[2]);
-	putchar(a[3]);
-	putchar(a[4]);
-	putchar(a[5]);
-	putchar(a[6]);
-	putchar(a[7]);
-	putchar(a[8]);
-	putchar('\n');
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 return (0);
