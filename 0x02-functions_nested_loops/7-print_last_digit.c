@@ -4,7 +4,7 @@
  * @c: the value to be used
  * Return: Always succes
  */
-int print_last_digit(int c)
+int print_last_digit(int n)
 {
 	int b;
 	b = n %10;
