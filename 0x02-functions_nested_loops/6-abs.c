@@ -10,7 +10,7 @@ int _abs(int c)
 	{
 	int abs_b;
 	abs_b= c* -1;
-	return (abs_val);
+	return (abs_b);
 	}
 return (c);
 }
