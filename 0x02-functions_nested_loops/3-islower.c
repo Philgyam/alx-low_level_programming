@@ -6,7 +6,7 @@
  */
 int _islower(int r)
 {
-    int r;
+    
 
     r = _islower('H');
     _putchar(r + '0');
