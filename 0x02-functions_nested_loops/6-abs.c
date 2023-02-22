@@ -3,9 +3,8 @@
  * _abs - Returns absolute
  * Return : always success
  */
-int _abs(int)
+int _abs(int c)
 {
-	int c;
 
 	if (c <= 0 || C > 0)
 	{_abs(c);}
