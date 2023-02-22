@@ -7,6 +7,10 @@ int _abs(int c)
 {
 
 	if (c <= 0)
-	{int _abs(c);}
-return (0);
+	{
+	int abs_b;
+	abs_c= c* -1
+	return (abs_val);
+	}
+return (c);
 }
