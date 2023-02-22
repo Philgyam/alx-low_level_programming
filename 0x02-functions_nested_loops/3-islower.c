@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * Main- Its part
- * c - its the int
- *int _islower - take us through
+ *@c: its the int
+ *islower - take us through
  *
  * Return: always 0
  */
