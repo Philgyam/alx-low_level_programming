@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * print_sign - It shows the signs
- * @n - Its the integer
- * Return : Always 1 when success
+ * print_sign - This is the main
+ * @n: This is the integer
+ * Return: Always 0 success
  */
 int print_sign(int n)
 {
@@ -13,12 +13,12 @@ int print_sign(int n)
 	else
 	if (n == 0)
 	{_putchar('0');
-	return 0;
+	return (0);
 	}
-	else 
+	else
 	if (n < 0)
 	{_putchar('-');
-	return -1;
+	return (-1);
 	}
-return 0;
+return (0);
 }
