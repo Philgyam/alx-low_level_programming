@@ -2,7 +2,7 @@
 /**
  * Main- Its part
  *@c: its the int
- *islower - take us through
+ *_islower - take us through
  *
  * Return: always 0
  */
