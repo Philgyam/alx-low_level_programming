@@ -1,8 +1,7 @@
 #include "main.h"
 /**
- * Main- Its part
+ *_islower - checks for lower
  *@c: its the int
- *_islower - take us through
  *
  * Return: always 0
  */
