@@ -1,16 +1,19 @@
 #include "main.h"
 /**
  * _abs - Returns absolute
- * Return : always success
+ * @c: The number
+ * Return: Always succes
  */
 int _abs(int c)
 {
 
 	if (c <= 0)
+
 	{
-	int abs_b;
-	abs_b= c* -1;
-	return (abs_b);
+	int abs_val;
+
+	abs_b = c * -1;
+	return (abs_val);
 	}
 return (c);
 }
