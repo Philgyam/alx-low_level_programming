@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * isdigit - The main
+ * _isdigit - The main
+ * @c: the value
  * Return: the value
  */
 int _isdigit(int c)
