@@ -4,7 +4,7 @@
  * return : always success
  * void: the empty space;
  */
-int print_numbers(void)
+void print_numbers(void)
 {
 	int a;
 	
