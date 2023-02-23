@@ -6,7 +6,7 @@
 int _isupper(int c)
 {
 	 int c;
-	if (c >= 65&& a <= 98)
+	if (c >= 65 && c <= 98)
 	{return (1);}
 	(return (0);
 }
