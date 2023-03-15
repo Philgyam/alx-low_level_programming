@@ -7,7 +7,7 @@
  * @args : argument passed by user
  * return : returns 0 as value 
  */
-int main(int argc, char *args[]){
+int main(int argc, char *argv[]){
 
 	printf("%d\n", argc);
 	return 0;
