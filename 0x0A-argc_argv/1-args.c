@@ -1,15 +1,18 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 
-/* 
- * main - contains the enteir program
- * @argc : Counter for program
- * @args : argument passed by user
- * return : returns 0 as value 
+/**
+ * main - prints the number of arguments passed into main
+ * @argc: count arguments
+ * @argv: name of array
+ * Return: 0
  */
+
 int main(int argc, char *argv[])
 {
+	(void) argv;
 
 	printf("%i\n", argc - 1);
-	return 0;
+
+	return (0);
 }
