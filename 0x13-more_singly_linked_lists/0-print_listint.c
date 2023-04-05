@@ -1,14 +1,22 @@
-#include "function_pointers.h"
+#include "lists.h"
+#include <stdio.h>
 
 /**
- * print_name - Prints a name.
- * @name: The name to be printed.
- * @f: A pointer to a function that prints a name.
+ * print_listint - Prints all the elements of a listint_t list.
+ * @h: A pointer to the head of the list_t list.
+ *
+ * Return: The number of nodes in the list_t list.
  */
-void print_name(char *name, void (*f)(char *))
+size_t print_listint(const listint_t *h)
 {
-	if (name == NULL || f == NULL)
-		return;
+	size_t nodes = 0;
 
-	f(name);
+	while (h)
+	{
+		nodes++;
+		printf("%d\n", h->n);
+		h = h->next;
+	}
+
+	return (nodes);
 }

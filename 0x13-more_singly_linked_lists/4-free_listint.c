@@ -1,4 +1,4 @@
-#include "lists.h"
+ #include "lists.h"
 
 /**
  * free_listint - Frees a listint_t list.
@@ -15,4 +15,3 @@ void free_listint(listint_t *head)
 		head = tmp;
 	}
 }
-
